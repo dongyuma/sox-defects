@@ -1,8 +1,8 @@
 # Vulnerability Description
 Undefined behavior issues caused by the misuse of keywords were discovered in RTEMS, which will cause the program to run incorrectly and even crash.
 
-# Amazon FreeRTOS download address
-[https://github.com/aws/amazon-freertos](https://github.com/RTEMS/rtems)
+# RTEMS download address
+https://github.com/RTEMS/rtems
 
 # Vulnerability Details
 ## An undefined behavior issue caused by the misuse of const keyword was discovered in RTEMS in functon rtems_bsdnet_show_mbuf_stats() of /RTEMS/4.11.3/kernel/rtems/cpukit/libnetworking/rtems/rtems_showmbuf.c file in line 41.
