@@ -27,6 +27,7 @@
 
 # 第五类：类型转换
 7、函数gsl_ran_gamma_knuth在文件/gsl-2.7.1/randist/gamma.c第44行输入a=1.23e189时抛出类型转换异常导致的溢出： unsigned int na = Floor(a);
+
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/32327268-5cca-420d-a993-0c9c8a471395)
 
 
