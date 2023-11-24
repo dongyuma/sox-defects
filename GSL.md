@@ -27,7 +27,8 @@
 
 # 第五类：类型转换
 7、函数gsl_ran_gamma_knuth在文件/gsl-2.7.1/randist/gamma.c第44行输入a=1.23e189时抛出类型转换异常导致的溢出： unsigned int na = Floor(a);
-![Uploading image.png…]()
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/32327268-5cca-420d-a993-0c9c8a471395)
+
 
 # 第六类：不精确（舍入误差）
 8.函数 hyperg_1F1_1 抛出舍入错误异常，导致 while 循环在文件 /gsl-2.7.1/specfunc/hyperg_1F1.c 中第 378 行的输入 b=x=1.23e189 时无法终止： while(bp > b +0.1) {.当x达到1.23e189（一个非常大的值）时，378处的循环不会终止，
