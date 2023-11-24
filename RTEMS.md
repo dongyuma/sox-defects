@@ -1,3 +1,5 @@
+# Affected Version
+Real-Time Executive for Multiprocessing Systems (RTEMS) , version 5.3
 # Vulnerability Description
 Undefined behavior issues caused by the misuse of keywords were discovered in RTEMS, which will cause the program to run incorrectly and even crash.
 
