@@ -1,7 +1,7 @@
 对于GSL 2.7.1中的函数 ，我们发现在某些输入下会导致一些函数发生浮点异常，导致代码缺陷，进而导致错误的程序行为。
 对于发现的每一类浮点异常，列出了 1 或 2 个。我们描述了函数名称、抛出的异常类型、触发异常的输入以及导致异常的代码的具体位置。
 
-#第一类：无效操作异常
+##第一类：无效操作异常
 1.函数gsl_sf_conicalP_xlt1_large_neg_mu_e在文件/gsl-2.7.1/specfunc/legendre_con.c中第221行输入tau=1.0, mu=2.0, x=3.0时抛出无效异常：double p = x/sqrt(beta2* (1.0-xx) + 1.0); 由于sqrt参数不能为负数，此时会出现无效异常。
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/3262f37b-5cec-4093-b8d0-0d2022e37d2e)
 2.函数gsl_cdf_laplace_Qinv在文件/gsl-2.7.1/cdf/laplaceinv.c中第67行输入Q=-0.5时抛出无效异常：x = -a * log(2Q);因为log参数不能为负数，此时会出现无效异常。
