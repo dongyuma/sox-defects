@@ -4,11 +4,13 @@
 # 第一类：无效操作异常
 1.函数gsl_sf_conicalP_xlt1_large_neg_mu_e在文件/gsl-2.7.1/specfunc/legendre_con.c中第221行输入tau=1.0, mu=2.0, x=3.0时抛出无效异常：double p = x/sqrt(beta2* (1.0-xx) + 1.0); 由于sqrt参数不能为负数，此时会出现无效异常。
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/3262f37b-5cec-4093-b8d0-0d2022e37d2e)
+
 2.函数gsl_cdf_laplace_Qinv在文件/gsl-2.7.1/cdf/laplaceinv.c中第67行输入Q=-0.5时抛出无效异常：x = -a * log(2Q);因为log参数不能为负数，此时会出现无效异常。
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/bba9f34f-003f-4fb9-bb3b-67613c43effb)
 
 # 第二类：溢出
 3.函数gsl_sf_bessel_Knu_scaled_asymp_unif_e在文件/gsl-2.7.1/specfunc/bessel.c第398行输入nu=1.45e-192, x=1.0时抛出溢出异常： double root_term =hypot(1.0,z);
+
 4.函数gsl_sf_conicalP_xlt1_large_neg_mu_e在文件/gsl-2.7.1/specfunc/legendre_con.c的第219行输入tau =1.23e189,mu=1e-2时抛出溢出异常：double beta2 = beta*beta;
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/2fa5872f-f243-4eae-8ffc-bceff7e4b580)
 
