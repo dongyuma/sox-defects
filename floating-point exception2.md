@@ -23,8 +23,9 @@ https://github.com/chirlu/sox
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/2be2bcdd-501a-4fe3-8632-d39ac40a3fcf)
 
 
-## A floating point exception (divide-by-zero) issue was discovered in SoX in functon read_samples() of wav.c in line 1166.
-![image](https://github.com/dongyuma/sox-defects/assets/87286944/7ec47c51-6445-48c0-84ae-bb77ac6eb7ab)
+## A floating point exception (divide-by-zero) issue was discovered in SoX in functon lsx_aifcstopwrite() of aiff.c in line 832.
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/8cea8809-9967-4daf-8c6f-9203da830ea1)
+
 
 ## A floating point exception (divide-by-zero) issue was discovered in SoX in functon seek() of wav.c in line 1751.
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/a6eafa60-6b34-4942-b6bf-5450d58debcc)
