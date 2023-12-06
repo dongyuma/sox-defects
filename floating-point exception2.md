@@ -52,6 +52,13 @@ https://github.com/ArtifexSoftware/mupdf
 ## A floating point exception (divide-by-zero) issue was discovered in mupdf in functon fz_new_bitmap() of bitmap.c in line 294.
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/fdc22ce4-c64f-4143-b5bd-710afe929567)
 
+## A floating point exception (divide-by-zero) issue was discovered in mupdf in functon fz_blend_separable_nonisolate() of draw-blend.c in line 676.
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/b0c7c201-b845-4343-b10b-d31bfb91f6aa)
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/3cd42cac-7416-41ea-804c-b287566bfea8)
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/d040f287-ebb6-4994-bf34-368f8b96cc5c)
+
+
+
 
 
 
