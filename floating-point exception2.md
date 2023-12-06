@@ -28,7 +28,10 @@ https://github.com/chirlu/sox
 
 
 ## A floating point exception (divide-by-zero) issue was discovered in SoX in functon lsx_adpcm_encode() of adpcms.c in line 97.
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/31def2b6-0c5a-4cdf-8c08-e719adf1c626)
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/d323bde4-b2cb-4ea3-b1fa-c39dce6eb539)
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/4b53016f-6ffe-44a3-9159-b6ec50ab5852)
+
 
 
 ## A floating point exception (divide-by-zero) issue was discovered in SoX in functon interleave() of effects.c in line 629.
