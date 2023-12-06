@@ -34,8 +34,10 @@ https://github.com/chirlu/sox
 
 
 
-## A floating point exception (divide-by-zero) issue was discovered in SoX in functon interleave() of effects.c in line 629.
-![image](https://github.com/dongyuma/sox-defects/assets/87286944/6d269a46-5b9a-4a6b-a23c-d3ab342f0d31)
+## A floating point exception (divide-by-zero) issue was discovered in SoX in functon lsx_rawstart() of raw.c in line 64.
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/7dcfdb2f-b099-424e-ada2-bfaa5aa347d7)
+
+
 
 
 # Affected Version
