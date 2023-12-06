@@ -7,7 +7,7 @@ floating point exception (divide-by-zero) issues was discovered in SoX
 # Sox download address
 https://github.com/chirlu/sox
 
-
+ 
 # Vulnerability Details
 
 ## A floating point exception (divide-by-zero) issue was discovered in SoX in functon startread() of skelform.c file in line 65.
