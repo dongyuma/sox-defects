@@ -31,7 +31,7 @@ https://github.com/chirlu/sox
 
 # Affected Version
 mupdf 1.23.4
-
+ 
 # Vulnerability Description
 floating point exception (divide-by-zero) issues was discovered in mupdf 
 
