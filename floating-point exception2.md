@@ -14,8 +14,10 @@ https://github.com/chirlu/sox
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/24ac3b75-ec1b-4c5c-b808-79e4fdf29d64)
 
 
-## A floating point exception (divide-by-zero) issue was discovered in SoX in functon sox_ladspa_flow() of ladspa.c file in line 334.
-![image](https://github.com/dongyuma/sox-defects/assets/87286944/5c024bd5-cb85-4774-9998-87160cfc89bd)
+## A floating point exception (divide-by-zero) issue was discovered in SoX in functon parse() of bend.c file in line 77.
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/68883933-e74f-4ed0-95f0-0b494622706d)
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/18a5be8e-d653-4d2c-881b-f42c8b73767b)
+
 
 ## A floating point exception (divide-by-zero) issue was discovered in SoX in functon lsx_ms_adpcm_samples_in() of adpcm.c in line 343.
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/5230a2cc-1a28-4515-93ef-7728fdcac744)
