@@ -5,7 +5,8 @@
 
 /project/sox-14.4.2/lpc10/dcbias.c line73
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/9e725a07-3878-4127-82a1-80dc1015aade)
-![image](https://github.com/dongyuma/sox-defects/assets/87286944/9b5115ad-7bfd-4bd0-b592-fbc1e44de55d)
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/affca2c8-e947-42e1-9159-2919ccb4ee07)
+
 
 /project/sox-14.4.2/src/sox.c line489
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/9a0e7aeb-811d-45ec-8cae-43e90202f57e)
