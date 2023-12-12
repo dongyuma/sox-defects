@@ -14,3 +14,6 @@
 /project/mupdf/source/fitz/load-pnm.c line519
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/ad8b0e05-a74c-4c8f-bdf9-718bf6607231)
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/c1e3c390-b523-4b36-bdb2-0c80dc377b07)
+
+/project/mupdf/source/fitz/load-pnm.c line527
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/ca9af87d-247e-4f4d-b451-6839a3bccf37)
