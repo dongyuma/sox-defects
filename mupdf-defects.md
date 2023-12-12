@@ -5,5 +5,9 @@
 
 /project/mupdf/source/fitz/pixmap.c  line1330
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/5e18c772-474d-44e4-a53a-ed9980c6d3c0)
+/project/mupdf/thirdparty/libjpeg/jquant2.c line533
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/1a1c7bfd-059e-4e69-b044-9fed2de9d26d)
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/2beb34ce-37e2-43c0-8da5-0e52957e151a)
 
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/e7a27960-81c6-4334-846a-e4208fc6bbf9)
 
