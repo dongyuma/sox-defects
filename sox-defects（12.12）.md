@@ -8,8 +8,8 @@
 
 /project/sox-14.4.2/src/sox.c line489
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/9a0e7aeb-811d-45ec-8cae-43e90202f57e)
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/f933a697-effc-4277-b682-31b191d76b14)
 
-![image](https://github.com/dongyuma/sox-defects/assets/87286944/f755455f-a79f-4090-be2f-3eb541d1c537)
 
 
 /project/sox-14.4.2/src/adpcms.c line97
