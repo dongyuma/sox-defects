@@ -2,3 +2,8 @@
 
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/06cabb87-15d6-4396-97ce-06d93454cfeb)
 ![image](https://github.com/dongyuma/sox-defects/assets/87286944/726ff82c-1c59-452d-9495-25b25a8cfb43)
+
+/project/mupdf/source/fitz/pixmap.c  line1330
+![image](https://github.com/dongyuma/sox-defects/assets/87286944/5e18c772-474d-44e4-a53a-ed9980c6d3c0)
+
+
